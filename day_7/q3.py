@@ -53,7 +53,7 @@ for train_idx, test_idx in kfold.split(X):
     y_pred_fold = best_model.predict(X_test_fold)
     score = best_model.score(X_test_fold, y_test_fold)
     cv_scores.append(score)
-    
+        
     cm = confusion_matrix(y_test_fold, y_pred_fold)
     print(f"\nFold {fold_num} - Accuracy: {score:.2f}")
     print(f"Confusion Matrix:\n{cm}")

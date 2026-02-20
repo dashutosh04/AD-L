@@ -200,3 +200,8 @@ ipython_config.py
 *.tsv
 *.xlsx
 *.xls
+
+*/melanoma_cancer_dataset/*/*/*
+melanoma_cancer_dataset/
+*.jpg
+
