@@ -15,7 +15,7 @@ from sklearn.metrics import (
 save_location = "q1/"
 os.makedirs(save_location, exist_ok=True)
 
-mnist = fetch_openml("mnist_784", version=1, as_frame=False)
+mnist = fetch_openml("mnist_784", version=1, as_frame=False, data_home="./data")
 
 X = mnist.data
 y = mnist.target.astype(int)

@@ -204,4 +204,4 @@ ipython_config.py
 */melanoma_cancer_dataset/*/*/*
 melanoma_cancer_dataset/
 *.jpg
-
+data/
